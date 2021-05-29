@@ -26,7 +26,7 @@ add_action('rest_api_init', function () {
                 'methods'  => 'GET',
                 'callback' => 'wp_db_infos'
       ));
-});
+}); 
 
 /*wordpress informations **/
 function wp_rest_api_function( $data ) {   
